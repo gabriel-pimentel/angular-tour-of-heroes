@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AngularTourOfHeroes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# angular-tour-of-heroes
+A simple Angular App to add, remove, edit a list of your favorite heroes
+>>>>>>> 4a14c7a8f6ed9de83e26c212f3a79526bba61836
