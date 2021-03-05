@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Hero } from '../hero';
+import { Hero } from '../hero'
 
 @Component({
   selector: 'app-heroes',
@@ -7,24 +7,15 @@ import { Hero } from '../hero';
   styleUrls: ['./heroes.component.css']
 })
 export class HeroesComponent implements OnInit {
+
   hero: Hero = {
     id: 1,
     name: 'Windstorm'
   };
-  /*
-     Constructors should do no more than set
-     the initial local variables to simple values.
-  */
-  constructor() {
 
-  }
+  constructor() { }
 
-  // Fetch initial data for this component
-  // Angular calls it  shortly after ckecking
-  // the input properties for that component or
-  // directive for the first time
-  ngOnInit() {
-
+  ngOnInit(): void {
   }
 
 }
